@@ -31,7 +31,7 @@ const refs = {
   secondsSpan: document.querySelector('[data-seconds]'),
 };
 refs.startBtn.disabled = true;
-flatpickr('input#datetime-picker', options);
+flatpickr('#datetime-picker', options);
 
 refs.startBtn.addEventListener('click', countdownTimer);
 
